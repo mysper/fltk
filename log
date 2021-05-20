@@ -1,0 +1,19 @@
+In file included from GUI.h:11,
+                 from Simple_window.h:2,
+                 from first_test.cpp:8:
+Graph.h:197:24: warning: narrowing conversion of 'fl_color()' from 'Fl_Color' {aka 'unsigned int'} to 'int' inside { } [-Wnarrowing]
+  Color lcolor {fl_color()};
+                ~~~~~~~~^~
+In file included from Graph.cpp:1:
+Graph.h:197:24: warning: narrowing conversion of 'fl_color()' from 'Fl_Color' {aka 'unsigned int'} to 'int' inside { } [-Wnarrowing]
+  Color lcolor {fl_color()};
+                ~~~~~~~~^~
+In file included from Window.cpp:2:
+Graph.h:197:24: warning: narrowing conversion of 'fl_color()' from 'Fl_Color' {aka 'unsigned int'} to 'int' inside { } [-Wnarrowing]
+  Color lcolor {fl_color()};
+                ~~~~~~~~^~
+In file included from GUI.h:11,
+                 from GUI.cpp:1:
+Graph.h:197:24: warning: narrowing conversion of 'fl_color()' from 'Fl_Color' {aka 'unsigned int'} to 'int' inside { } [-Wnarrowing]
+  Color lcolor {fl_color()};
+                ~~~~~~~~^~

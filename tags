@@ -1,0 +1,737 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add_assign	Matrix.h	/^template<class T> struct Add_assign {$/;"	s	namespace:Numeric_lib
+Add_assign	Matrix11.h	/^template<class T> struct Add_assign {$/;"	s	namespace:Numeric_lib
+Address	GUI.h	/^    typedef void* Address;    \/\/ Address is a synonym for void*$/;"	t	namespace:Graph_lib
+Address	Gui.h	/^typedef void* Address;$/;"	t	namespace:Graph_lib
+And_assign	Matrix.h	/^template<class T> struct And_assign {$/;"	s	namespace:Numeric_lib
+And_assign	Matrix11.h	/^template<class T> struct And_assign {$/;"	s	namespace:Numeric_lib
+Assign	Matrix.h	/^template<class T> struct Assign {$/;"	s	namespace:Numeric_lib
+Assign	Matrix11.h	/^template<class T> struct Assign {$/;"	s	namespace:Numeric_lib
+Axis	Graph.cpp	/^Axis::Axis(Orientation d, Point xy, int length, int n, string lab)$/;"	f	class:Graph_lib::Axis
+Axis	Graph.h	/^struct Axis : Shape {$/;"	s	namespace:Graph_lib
+Bad_image	Graph.h	/^	Bad_image(int h, int w) : Fl_Image(h,w,0) { }$/;"	f	struct:Graph_lib::Bad_image
+Bad_image	Graph.h	/^struct Bad_image : Fl_Image {$/;"	s	namespace:Graph_lib
+Button	GUI.h	/^        Button(Point xy, int w, int h, const string& label, Callback cb)$/;"	f	struct:Graph_lib::Button
+Button	GUI.h	/^    struct Button : Widget {$/;"	s	namespace:Graph_lib
+Button	Gui.h	/^	Button(Point xy, int ww, int hh, const string& s, Callback cb)$/;"	f	class:Graph_lib::Button
+Button	Gui.h	/^class Button : public Widget {$/;"	c	namespace:Graph_lib
+Callback	GUI.h	/^    typedef void(*Callback)(Address, Address);    \/\/ FLTK's required function type for all callbacks$/;"	t	namespace:Graph_lib
+Callback	Gui.h	/^typedef void (*Callback)(Address,Address);	\/\/ FLTK's required function type for all callbacks$/;"	t	namespace:Graph_lib
+Circle	Graph.h	/^	Circle(Point p, int rr)	\/\/ center and radius$/;"	f	struct:Graph_lib::Circle
+Circle	Graph.h	/^struct Circle : Shape {$/;"	s	namespace:Graph_lib
+Closed_polyline	Graph.h	/^struct Closed_polyline : Open_polyline {	\/\/ closed sequence of lines$/;"	s	namespace:Graph_lib
+Color	Graph.h	/^	Color(Color_type cc) :c(Fl_Color(cc)), v(visible) { }$/;"	f	struct:Graph_lib::Color
+Color	Graph.h	/^	Color(Color_type cc, Transparency vv) :c(Fl_Color(cc)), v(vv) { }$/;"	f	struct:Graph_lib::Color
+Color	Graph.h	/^	Color(Transparency vv) :c(Fl_Color()), v(vv) { }$/;"	f	struct:Graph_lib::Color
+Color	Graph.h	/^	Color(unsigned int cc) :c(Fl_Color(cc)), v(visible) { }$/;"	f	struct:Graph_lib::Color
+Color	Graph.h	/^struct Color {$/;"	s	namespace:Graph_lib
+Color_type	Graph.h	/^	enum Color_type {$/;"	g	struct:Graph_lib::Color
+Complement	Matrix.h	/^template<class T> struct Complement {$/;"	s	namespace:Numeric_lib
+Complement	Matrix11.h	/^template<class T> struct Complement {$/;"	s	namespace:Numeric_lib
+Div_assign	Matrix.h	/^template<class T> struct Div_assign {$/;"	s	namespace:Numeric_lib
+Div_assign	Matrix11.h	/^template<class T> struct Div_assign {$/;"	s	namespace:Numeric_lib
+Ellipse	Graph.h	/^	Ellipse(Point p, int ww, int hh)	\/\/ center, min, and max distance from center$/;"	f	struct:Graph_lib::Ellipse
+Ellipse	Graph.h	/^struct Ellipse : Shape {$/;"	s	namespace:Graph_lib
+Encoding	Graph.h	/^	enum Encoding { none, jpg, gif, bmp };$/;"	g	struct:Graph_lib::Suffix
+Exit	std_lib_facilities.h	/^	Exit(): runtime_error("Exit") {}$/;"	f	struct:Exit
+Exit	std_lib_facilities.h	/^struct Exit : runtime_error {$/;"	s
+FLTK_GUARD	fltk.h	2;"	d
+Fct	Graph.h	/^typedef double Fct(double);$/;"	t	namespace:Graph_lib
+Fill	Graph.h	/^	Fill() :no_fill(true), fcolor(0) { }$/;"	f	struct:Graph_lib::Fill
+Fill	Graph.h	/^	Fill(Color c) :no_fill(false), fcolor(c) { }$/;"	f	struct:Graph_lib::Fill
+Fill	Graph.h	/^struct Fill {$/;"	s	namespace:Graph_lib
+Font	Graph.h	/^	Font(Font_type ff) :f(ff) { }$/;"	f	class:Graph_lib::Font
+Font	Graph.h	/^	Font(int ff) :f(ff) { }$/;"	f	class:Graph_lib::Font
+Font	Graph.h	/^class Font {$/;"	c	namespace:Graph_lib
+Font_type	Graph.h	/^	enum Font_type {$/;"	g	class:Graph_lib::Font
+Function	Graph.cpp	/^Function::Function(Fct f, double r1, double r2, Point xy, int count, double xscale, double yscale)$/;"	f	class:Graph_lib::Function
+Function	Graph.h	/^struct Function : Shape {$/;"	s	namespace:Graph_lib
+GRAPH_GUARD	Graph.h	3;"	d
+GUI_GUARD	GUI.h	8;"	d
+GUI_GUARD	Gui.h	2;"	d
+Graph_lib	GUI.h	/^namespace Graph_lib {$/;"	n
+Graph_lib	Graph.cpp	/^namespace Graph_lib {$/;"	n	file:
+Graph_lib	Graph.h	/^namespace Graph_lib {$/;"	n
+Graph_lib	Gui.h	/^namespace Graph_lib {$/;"	n
+Graph_lib	Point.h	/^namespace Graph_lib {$/;"	n
+Graph_lib	Window.cpp	/^namespace Graph_lib {$/;"	n	file:
+Graph_lib	Window.h	/^namespace Graph_lib {$/;"	n
+H112	std_lib_facilities.h	27;"	d
+Image	Graph.cpp	/^Image::Image(Point xy, string s, Suffix::Encoding e)$/;"	f	class:Graph_lib::Image
+Image	Graph.h	/^struct Image : Shape {$/;"	s	namespace:Graph_lib
+In_box	GUI.h	/^        In_box(Point xy, int w, int h, const string& s)$/;"	f	struct:Graph_lib::In_box
+In_box	GUI.h	/^    struct In_box : Widget {$/;"	s	namespace:Graph_lib
+In_box	Gui.h	/^	In_box(Point xy, int w, int h, const string& s)$/;"	f	struct:Graph_lib::In_box
+In_box	Gui.h	/^struct In_box : Widget {$/;"	s	namespace:Graph_lib
+Index	Matrix.h	/^typedef long Index;    \/\/ I still dislike unsigned$/;"	t	namespace:Numeric_lib
+Index	Matrix11.h	/^typedef long Index;    \/\/ I still dislike unsigned$/;"	t	namespace:Numeric_lib
+Kind	GUI.h	/^        enum Kind { horizontal, vertical };$/;"	g	struct:Graph_lib::Menu
+Kind	Gui.h	/^	enum Kind { horizontal, vertical };$/;"	g	struct:Graph_lib::Menu
+Line	Graph.h	/^	Line(Point p1, Point p2) { add(p1); add(p2); }$/;"	f	struct:Graph_lib::Line
+Line	Graph.h	/^struct Line : Shape {$/;"	s	namespace:Graph_lib
+Line_style	Graph.h	/^	Line_style(Line_style_type lst, int ww) :s(lst), w(ww) { }$/;"	f	struct:Graph_lib::Line_style
+Line_style	Graph.h	/^	Line_style(Line_style_type ss) :s(ss), w(0) { }$/;"	f	struct:Graph_lib::Line_style
+Line_style	Graph.h	/^	Line_style(int ss) :s(ss), w(0) { }$/;"	f	struct:Graph_lib::Line_style
+Line_style	Graph.h	/^struct Line_style {$/;"	s	namespace:Graph_lib
+Line_style_type	Graph.h	/^	enum Line_style_type {$/;"	g	struct:Graph_lib::Line_style
+Lines	Graph.h	/^	Lines() {}$/;"	f	struct:Graph_lib::Lines
+Lines	Graph.h	/^	Lines(initializer_list<Point> lst) : Shape{lst} { if (lst.size() % 2) error("odd number of points for Lines"); }$/;"	f	struct:Graph_lib::Lines
+Lines	Graph.h	/^struct Lines : Shape {	\/\/ indepentdent lines$/;"	s	namespace:Graph_lib
+Lines_window	chapter.16.5.cpp	/^Lines_window::Lines_window(Point xy, int w, int h, const string& title)$/;"	f	class:Lines_window
+Lines_window	chapter.16.5.cpp	/^struct Lines_window : Graph_lib::Window {$/;"	s	file:
+MATRIX_LIB	Matrix.h	12;"	d
+MATRIX_LIB	Matrix11.h	14;"	d
+Mark	Graph.h	/^	Mark(Point xy, char c) : Marks(string(1,c)) {add(xy); }$/;"	f	struct:Graph_lib::Mark
+Mark	Graph.h	/^struct Mark : Marks {$/;"	s	namespace:Graph_lib
+Marked_polyline	Graph.h	/^	Marked_polyline(const string& m) :mark(m) { }$/;"	f	struct:Graph_lib::Marked_polyline
+Marked_polyline	Graph.h	/^struct Marked_polyline : Open_polyline {$/;"	s	namespace:Graph_lib
+Marks	Graph.h	/^	Marks(const string& m) :Marked_polyline(m)$/;"	f	struct:Graph_lib::Marks
+Marks	Graph.h	/^struct Marks : Marked_polyline {$/;"	s	namespace:Graph_lib
+Matrix	Matrix.h	/^    Matrix(Index n1) : Matrix_base<T>(n1), d1(n1) { }$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Index n1, Index n2) : Matrix_base<T>(n1*n2), d1(n1), d2(n2) { }$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Index n1, Index n2, Index n3) : Matrix_base<T>(n1*n2*n3), d1(n1), d2(n2), d3(n3) { }$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Index n1, Index n2, Index n3, T* p) : Matrix_base<T>(n1*n2*n3,p), d1(n1), d2(n2), d3(n3) $/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Index n1, Index n2, T* p) : Matrix_base<T>(n1*n2,p), d1(n1), d2(n2) $/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Index n1, T* p) : Matrix_base<T>(n1,p), d1(n1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Row<T,1>& a) : Matrix_base<T>(a.dim1(),a.p), d1(a.dim1()) $/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Row<T,2>& a) : Matrix_base<T>(a.dim1()*a.dim2(),a.p), d1(a.dim1()), d2(a.dim2())$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(Row<T,3>& a) : Matrix_base<T>(a.dim1()*a.dim2()*a.dim3(),a.p), d1(a.dim1()), d2(a.dim2()), d3(a.dim3())$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(const Matrix& a) : Matrix_base<T>(a.size(),0), d1(a.d1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(const Matrix& a) : Matrix_base<T>(a.size(),0), d1(a.d1), d2(a.d2)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(const Matrix& a) : Matrix_base<T>(a.size(),0), d1(a.d1), d2(a.d2), d3(a.d3)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    Matrix(const T* p, Index n) : Matrix_base<T>(n), d1(n)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    template<class F, class Arg> Matrix(const Matrix& a, F f, const Arg& t1) : Matrix_base<T>(a.size()), d1(a.d1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    template<class F, class Arg> Matrix(const Matrix& a, F f, const Arg& t1) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    template<class F, class Arg> Matrix(const Matrix& a, F f, const Arg& t1) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2), d3(a.d3)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    template<class F> Matrix(const Matrix& a, F f) : Matrix_base<T>(a.size()), d1(a.d1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    template<class F> Matrix(const Matrix& a, F f) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^    template<class F> Matrix(const Matrix& a, F f) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2), d3(a.d3)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix.h	/^template<class T = double, int D = 1> class Matrix {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix.h	/^template<class T> class Matrix<T,1> : public Matrix_base<T> {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix.h	/^template<class T> class Matrix<T,2> : public Matrix_base<T> {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix.h	/^template<class T> class Matrix<T,3> : public Matrix_base<T> {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix11.h	/^    Matrix(Index n1) : Matrix_base<T>(n1), d1(n1) { }$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Index n1, Index n2) : Matrix_base<T>(n1*n2), d1(n1), d2(n2) { }$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Index n1, Index n2, Index n3) : Matrix_base<T>(n1*n2*n3), d1(n1), d2(n2), d3(n3) { }$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Index n1, Index n2, Index n3, T* p) : Matrix_base<T>(n1*n2*n3,p), d1(n1), d2(n2), d3(n3) $/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Index n1, Index n2, T* p) : Matrix_base<T>(n1*n2,p), d1(n1), d2(n2) $/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Index n1, T* p) : Matrix_base<T>(n1,p), d1(n1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Row<T,1>& a) : Matrix_base<T>(a.dim1(),a.p), d1(a.dim1()) $/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Row<T,2>& a) : Matrix_base<T>(a.dim1()*a.dim2(),a.p), d1(a.dim1()), d2(a.dim2())$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(Row<T,3>& a) : Matrix_base<T>(a.dim1()*a.dim2()*a.dim3(),a.p), d1(a.dim1()), d2(a.dim2()), d3(a.dim3())$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(const Matrix& a) : Matrix_base<T>(a.size(),0), d1(a.d1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(const Matrix& a) : Matrix_base<T>(a.size(),0), d1(a.d1), d2(a.d2)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(const Matrix& a) : Matrix_base<T>(a.size(),0), d1(a.d1), d2(a.d2), d3(a.d3)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    Matrix(const T* p, Index n) : Matrix_base<T>(n), d1(n)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    template<class F, class Arg> Matrix(const Matrix& a, F f, const Arg& t1) : Matrix_base<T>(a.size()), d1(a.d1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    template<class F, class Arg> Matrix(const Matrix& a, F f, const Arg& t1) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    template<class F, class Arg> Matrix(const Matrix& a, F f, const Arg& t1) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2), d3(a.d3)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    template<class F> Matrix(const Matrix& a, F f) : Matrix_base<T>(a.size()), d1(a.d1)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    template<class F> Matrix(const Matrix& a, F f) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^    template<class F> Matrix(const Matrix& a, F f) : Matrix_base<T>(a.size()), d1(a.d1), d2(a.d2), d3(a.d3)$/;"	f	class:Numeric_lib::Matrix
+Matrix	Matrix11.h	/^template<class T = double, int D = 1> class Matrix {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix11.h	/^template<class T> class Matrix<T,1> : public Matrix_base<T> {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix11.h	/^template<class T> class Matrix<T,2> : public Matrix_base<T> {$/;"	c	namespace:Numeric_lib
+Matrix	Matrix11.h	/^template<class T> class Matrix<T,3> : public Matrix_base<T> {$/;"	c	namespace:Numeric_lib
+Matrix_base	Matrix.h	/^    Matrix_base(Index n) :elem(new T[n]()), sz(n), owns(true), xfer(false)$/;"	f	class:Numeric_lib::Matrix_base
+Matrix_base	Matrix.h	/^    Matrix_base(Index n, T* p) :elem(p), sz(n), owns(false), xfer(false)$/;"	f	class:Numeric_lib::Matrix_base
+Matrix_base	Matrix.h	/^template<class T> class Matrix_base {$/;"	c	namespace:Numeric_lib
+Matrix_base	Matrix11.h	/^    Matrix_base(Index n) :elem(new T[n]()), sz(n), owns(true), xfer(false)$/;"	f	class:Numeric_lib::Matrix_base
+Matrix_base	Matrix11.h	/^    Matrix_base(Index n, T* p) :elem(p), sz(n), owns(false), xfer(false)$/;"	f	class:Numeric_lib::Matrix_base
+Matrix_base	Matrix11.h	/^template<class T> class Matrix_base {$/;"	c	namespace:Numeric_lib
+Matrix_error	Matrix.h	/^    Matrix_error(const char* q) :name(q) { }$/;"	f	struct:Numeric_lib::Matrix_error
+Matrix_error	Matrix.h	/^    Matrix_error(std::string n) :name(n) { }$/;"	f	struct:Numeric_lib::Matrix_error
+Matrix_error	Matrix.h	/^struct Matrix_error {$/;"	s	namespace:Numeric_lib
+Matrix_error	Matrix11.h	/^    Matrix_error(const char* q) :name(q) { }$/;"	f	struct:Numeric_lib::Matrix_error
+Matrix_error	Matrix11.h	/^    Matrix_error(std::string n) :name(n) { }$/;"	f	struct:Numeric_lib::Matrix_error
+Matrix_error	Matrix11.h	/^struct Matrix_error {$/;"	s	namespace:Numeric_lib
+Menu	GUI.h	/^        Menu(Point xy, int w, int h, Kind kk, const string& label)$/;"	f	struct:Graph_lib::Menu
+Menu	GUI.h	/^    struct Menu : Widget {$/;"	s	namespace:Graph_lib
+Menu	Gui.h	/^struct Menu : Widget {$/;"	s	namespace:Graph_lib
+Minus_assign	Matrix.h	/^template<class T> struct Minus_assign {$/;"	s	namespace:Numeric_lib
+Minus_assign	Matrix11.h	/^template<class T> struct Minus_assign {$/;"	s	namespace:Numeric_lib
+Mod_assign	Matrix.h	/^template<class T> struct Mod_assign {$/;"	s	namespace:Numeric_lib
+Mod_assign	Matrix11.h	/^template<class T> struct Mod_assign {$/;"	s	namespace:Numeric_lib
+Mul_assign	Matrix.h	/^template<class T> struct Mul_assign {$/;"	s	namespace:Numeric_lib
+Mul_assign	Matrix11.h	/^template<class T> struct Mul_assign {$/;"	s	namespace:Numeric_lib
+Not	Matrix.h	/^template<class T> struct Not {$/;"	s	namespace:Numeric_lib
+Not	Matrix11.h	/^template<class T> struct Not {$/;"	s	namespace:Numeric_lib
+Not_assign	Matrix.h	/^template<class T> struct Not_assign {$/;"	s	namespace:Numeric_lib
+Not_assign	Matrix11.h	/^template<class T> struct Not_assign {$/;"	s	namespace:Numeric_lib
+Numeric_lib	Matrix.h	/^namespace Numeric_lib {$/;"	n
+Numeric_lib	Matrix11.h	/^namespace Numeric_lib {$/;"	n
+Numeric_lib	MatrixIO.h	/^namespace Numeric_lib {$/;"	n
+Numeric_lib	MatrixIO11.h	/^namespace Numeric_lib {$/;"	n
+Open_polyline	Graph.h	/^struct Open_polyline : Shape {	\/\/ open sequence of lines$/;"	s	namespace:Graph_lib
+Or_assign	Matrix.h	/^template<class T> struct Or_assign {$/;"	s	namespace:Numeric_lib
+Or_assign	Matrix11.h	/^template<class T> struct Or_assign {$/;"	s	namespace:Numeric_lib
+Orientation	Graph.h	/^	enum Orientation { x, y, z };$/;"	g	struct:Graph_lib::Axis
+Out_box	GUI.h	/^        Out_box(Point xy, int w, int h, const string& s)$/;"	f	struct:Graph_lib::Out_box
+Out_box	GUI.h	/^    struct Out_box : Widget {$/;"	s	namespace:Graph_lib
+Out_box	Gui.h	/^	Out_box(Point xy, int w, int h, const string& s\/*, Window& win*\/)$/;"	f	struct:Graph_lib::Out_box
+Out_box	Gui.h	/^struct Out_box : Widget {$/;"	s	namespace:Graph_lib
+POINT_GUARD	Point.h	3;"	d
+Point	Point.h	/^	Point() :x(0), y(0) { }$/;"	f	struct:Graph_lib::Point
+Point	Point.h	/^	Point(int xx, int yy) : x(xx), y(yy) { }$/;"	f	struct:Graph_lib::Point
+Point	Point.h	/^struct Point {$/;"	s	namespace:Graph_lib
+Polygon	Graph.h	/^struct Polygon : Closed_polyline {	\/\/ closed sequence of non-intersecting lines$/;"	s	namespace:Graph_lib
+Range_error	std_lib_facilities.h	/^	Range_error(int i) :out_of_range("Range error: "+to_string(i)), index(i) { }$/;"	f	struct:Range_error
+Range_error	std_lib_facilities.h	/^struct Range_error : out_of_range {	\/\/ enhanced vector range error reporting$/;"	s
+Rectangle	Graph.h	/^	Rectangle(Point x, Point y) :w{ y.x - x.x }, h{ y.y - x.y }$/;"	f	struct:Graph_lib::Rectangle
+Rectangle	Graph.h	/^	Rectangle(Point xy, int ww, int hh) :w{ ww }, h{ hh }$/;"	f	struct:Graph_lib::Rectangle
+Rectangle	Graph.h	/^struct Rectangle : Shape {$/;"	s	namespace:Graph_lib
+Row	Matrix.h	/^    Row(Index n, T* p) : Matrix<T,1>(n,p)$/;"	f	class:Numeric_lib::Row
+Row	Matrix.h	/^    Row(Index n1, Index n2, Index n3, T* p) : Matrix<T,3>(n1,n2,n3,p)$/;"	f	class:Numeric_lib::Row
+Row	Matrix.h	/^    Row(Index n1, Index n2, T* p) : Matrix<T,2>(n1,n2,p)$/;"	f	class:Numeric_lib::Row
+Row	Matrix.h	/^template<class T, int D> class Row {$/;"	c	namespace:Numeric_lib
+Row	Matrix.h	/^template<class T> class Row<T,1> : public Matrix<T,1> {$/;"	c	namespace:Numeric_lib
+Row	Matrix.h	/^template<class T> class Row<T,2> : public Matrix<T,2> {$/;"	c	namespace:Numeric_lib
+Row	Matrix.h	/^template<class T> class Row<T,3> : public Matrix<T,3> {$/;"	c	namespace:Numeric_lib
+Row	Matrix11.h	/^    Row(Index n, T* p) : Matrix<T,1>(n,p)$/;"	f	class:Numeric_lib::Row
+Row	Matrix11.h	/^    Row(Index n1, Index n2, Index n3, T* p) : Matrix<T,3>(n1,n2,n3,p)$/;"	f	class:Numeric_lib::Row
+Row	Matrix11.h	/^    Row(Index n1, Index n2, T* p) : Matrix<T,2>(n1,n2,p)$/;"	f	class:Numeric_lib::Row
+Row	Matrix11.h	/^template<class T, int D> class Row {$/;"	c	namespace:Numeric_lib
+Row	Matrix11.h	/^template<class T> class Row<T,1> : public Matrix<T,1> {$/;"	c	namespace:Numeric_lib
+Row	Matrix11.h	/^template<class T> class Row<T,2> : public Matrix<T,2> {$/;"	c	namespace:Numeric_lib
+Row	Matrix11.h	/^template<class T> class Row<T,3> : public Matrix<T,3> {$/;"	c	namespace:Numeric_lib
+Shape	Graph.h	/^	Shape() { }$/;"	f	class:Graph_lib::Shape
+Shape	Graph.h	/^class Shape  {	\/\/ deals with color and style, and holds sequence of lines$/;"	c	namespace:Graph_lib
+Simple_window	Simple_window.cpp	/^Simple_window::Simple_window(Point xy, int w, int h, const string& title) :$/;"	f	class:Simple_window
+Simple_window	Simple_window.h	/^	Simple_window(Point xy, int w, int h, const string& title )$/;"	f	struct:Simple_window
+Simple_window	Simple_window.h	/^struct Simple_window : Graph_lib::Window {$/;"	s
+String	std_lib_facilities.h	/^struct String : std::string {$/;"	s
+Suffix	Graph.h	/^struct Suffix {$/;"	s	namespace:Graph_lib
+Text	Graph.h	/^	Text(Point x, const string& s) : lab{ s } { add(x); }$/;"	f	struct:Graph_lib::Text
+Text	Graph.h	/^struct Text : Shape {$/;"	s	namespace:Graph_lib
+Transparency	Graph.h	/^	enum Transparency { invisible = 0, visible=255 };$/;"	g	struct:Graph_lib::Color
+Unary_minus	Matrix.h	/^template<class T> struct Unary_minus {$/;"	s	namespace:Numeric_lib
+Unary_minus	Matrix11.h	/^template<class T> struct Unary_minus {$/;"	s	namespace:Numeric_lib
+Vector	std_lib_facilities.h	/^	Vector() { }$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	Vector(I first, I last) : std::vector<T>(first, last) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	Vector(initializer_list<T> list) : std::vector<T>(list) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	Vector(size_type n, const T& v) :std::vector<T>(n,v) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	explicit Vector(size_type n) :std::vector<T>(n) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^template< class T> struct Vector : public std::vector<T> {$/;"	s
+Vector_ref	Graph.h	/^	Vector_ref() {}$/;"	f	class:Graph_lib::Vector_ref
+Vector_ref	Graph.h	/^	Vector_ref(T* a, T* b=0, T* c=0, T* d=0)$/;"	f	class:Graph_lib::Vector_ref
+Vector_ref	Graph.h	/^template<class T> class Vector_ref {$/;"	c	namespace:Graph_lib
+WINDOW_GUARD	Window.h	2;"	d
+Widget	GUI.h	/^        Widget(Point xy, int w, int h, const string& s, Callback cb)$/;"	f	class:Graph_lib::Widget
+Widget	GUI.h	/^    class Widget {$/;"	c	namespace:Graph_lib
+Widget	Gui.h	/^	Widget(Point xy, int w, int h, const string& s, Callback cb)$/;"	f	class:Graph_lib::Widget
+Widget	Gui.h	/^class Widget {$/;"	c	namespace:Graph_lib
+Window	Window.cpp	/^Window::Window(Point xy, int ww, int hh, const string& title)$/;"	f	class:Graph_lib::Window
+Window	Window.cpp	/^Window::Window(int ww, int hh, const string& title)$/;"	f	class:Graph_lib::Window
+Window	Window.h	/^class Window : public Fl_Window {$/;"	c	namespace:Graph_lib
+Xor_assign	Matrix.h	/^template<class T> struct Xor_assign {$/;"	s	namespace:Numeric_lib
+Xor_assign	Matrix11.h	/^template<class T> struct Xor_assign {$/;"	s	namespace:Numeric_lib
+add	Graph.cpp	/^void Polygon::add(Point p)$/;"	f	class:Graph_lib::Polygon
+add	Graph.h	/^	void add(Point p) { Shape::add(p); }$/;"	f	struct:Graph_lib::Open_polyline
+add	Graph.h	/^	void add(Point p){ points.push_back(p); }$/;"	f	class:Graph_lib::Shape
+add	Graph.h	/^	void add(Point p1, Point p2) { Shape::add(p1); Shape::add(p2); }$/;"	f	struct:Graph_lib::Lines
+apply	Matrix.h	/^    template<class F> Matrix& apply(F f)            { this->base_apply(f);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+apply	Matrix.h	/^    template<class F> Matrix& apply(F f) { this->base_apply(f); return *this; }$/;"	f	class:Numeric_lib::Matrix
+apply	Matrix.h	/^    template<class F> Matrix& apply(F f,const T& c) { this->base_apply(f,c); return *this; }$/;"	f	class:Numeric_lib::Matrix
+apply	Matrix.h	/^template<class F, class A>            A apply(F f, A x)        { A res(x,f);   return xfer(res); }$/;"	f	namespace:Numeric_lib
+apply	Matrix.h	/^template<class F, class Arg, class A> A apply(F f, A x, Arg a) { A res(x,f,a); return xfer(res); }$/;"	f	namespace:Numeric_lib
+apply	Matrix11.h	/^    template<class F> Matrix& apply(F f)            { this->base_apply(f);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+apply	Matrix11.h	/^    template<class F> Matrix& apply(F f) { this->base_apply(f); return *this; }$/;"	f	class:Numeric_lib::Matrix
+apply	Matrix11.h	/^    template<class F> Matrix& apply(F f,const T& c) { this->base_apply(f,c); return *this; }$/;"	f	class:Numeric_lib::Matrix
+apply	Matrix11.h	/^template<class F, class A>            A apply(F f, A x)        { A res(x,f);   return xfer(res); }$/;"	f	namespace:Numeric_lib
+apply	Matrix11.h	/^template<class F, class Arg, class A> A apply(F f, A x, Arg a) { A res(x,f,a); return xfer(res); }$/;"	f	namespace:Numeric_lib
+apply_new	Matrix.h	/^    template<class F> Matrix apply_new(F f) { return xfer(Matrix(*this,f)); }$/;"	f	class:Numeric_lib::Matrix
+apply_new	Matrix11.h	/^    template<class F> Matrix apply_new(F f) { return xfer(Matrix(*this,f)); }$/;"	f	class:Numeric_lib::Matrix
+as_bytes	std_lib_facilities.h	/^template<class T> char* as_bytes(T& i)	\/\/ needed for binary I\/O$/;"	f
+as_int	Graph.h	/^	int as_int() const { return c; }$/;"	f	struct:Graph_lib::Color
+as_int	Graph.h	/^	int as_int() const { return f; }$/;"	f	class:Graph_lib::Font
+attach	GUI.cpp	/^int Menu::attach(Button& b)$/;"	f	class:Menu
+attach	GUI.cpp	/^int Menu::attach(Button* p)$/;"	f	class:Menu
+attach	GUI.cpp	/^void Button::attach(Graph_lib::Window& win)$/;"	f	class:Button
+attach	GUI.cpp	/^void In_box::attach(Graph_lib::Window& win)$/;"	f	class:In_box
+attach	GUI.cpp	/^void Out_box::attach(Graph_lib::Window& win)$/;"	f	class:Out_box
+attach	GUI.h	/^        void attach(Window& win)    \/\/ attach all buttons$/;"	f	struct:Graph_lib::Menu
+attach	Gui.h	/^	void attach(Window& win)$/;"	f	struct:Graph_lib::Menu
+attach	Window.cpp	/^void Window::attach(Shape& s)$/;"	f	class:Graph_lib::Window
+attach	Window.cpp	/^void Window::attach(Widget& w)$/;"	f	class:Graph_lib::Window
+base_apply	Matrix.h	/^    template<class F> void base_apply(F f) { for (Index i = 0; i<size(); ++i) f(elem[i]); }$/;"	f	class:Numeric_lib::Matrix_base
+base_apply	Matrix.h	/^    template<class F> void base_apply(F f, const T& c) { for (Index i = 0; i<size(); ++i) f(elem[i],c); }$/;"	f	class:Numeric_lib::Matrix_base
+base_apply	Matrix11.h	/^    template<class F> void base_apply(F f) { for (Index i = 0; i<size(); ++i) f(elem[i]); }$/;"	f	class:Numeric_lib::Matrix_base
+base_apply	Matrix11.h	/^    template<class F> void base_apply(F f, const T& c) { for (Index i = 0; i<size(); ++i) f(elem[i],c); }$/;"	f	class:Numeric_lib::Matrix_base
+base_assign	Matrix.h	/^    void base_assign(const Matrix_base& a) { copy_elements(a); }$/;"	f	class:Numeric_lib::Matrix_base
+base_assign	Matrix11.h	/^    void base_assign(const Matrix_base& a) { copy_elements(a); }$/;"	f	class:Numeric_lib::Matrix_base
+base_copy	Matrix.h	/^    void base_copy(const Matrix_base& a)$/;"	f	class:Numeric_lib::Matrix_base
+base_copy	Matrix11.h	/^    void base_copy(const Matrix_base& a)$/;"	f	class:Numeric_lib::Matrix_base
+base_xfer	Matrix.h	/^    void base_xfer(Matrix_base& x)$/;"	f	class:Numeric_lib::Matrix_base
+base_xfer	Matrix11.h	/^    void base_xfer(Matrix_base& x)$/;"	f	class:Numeric_lib::Matrix_base
+black	Graph.h	/^		yellow=FL_YELLOW, white=FL_WHITE, black=FL_BLACK,$/;"	e	enum:Graph_lib::Color::Color_type
+blue	Graph.h	/^		red=FL_RED, blue=FL_BLUE, green=FL_GREEN,$/;"	e	enum:Graph_lib::Color::Color_type
+bmp	Graph.h	/^	enum Encoding { none, jpg, gif, bmp };$/;"	e	enum:Graph_lib::Suffix::Encoding
+button_pushed	Simple_window.h	/^	bool button_pushed;$/;"	m	struct:Simple_window
+c	Graph.h	/^	Fl_Color c;$/;"	m	struct:Graph_lib::Color
+can_open	Graph.cpp	/^bool can_open(const string& s)$/;"	f	namespace:Graph_lib
+cb_next	Simple_window.cpp	/^void Simple_window::cb_next(Address, Address pw)$/;"	f	class:Simple_window
+cb_next	Simple_window.h	/^	static void cb_next(Address, Address addr) \/\/ callback for next_button$/;"	f	struct:Simple_window
+cb_next	chapter.16.5.cpp	/^void Lines_window::cb_next(Address, Address pw)     \/\/ "the usual"$/;"	f	class:Lines_window
+cb_quit	chapter.16.5.cpp	/^void Lines_window::cb_quit(Address, Address pw)    \/\/ "the usual"$/;"	f	class:Lines_window
+center	Graph.h	/^	Point center() const { return { point(0).x + r, point(0).y + r }; }$/;"	f	struct:Graph_lib::Circle
+center	Graph.h	/^	Point center() const { return{ point(0).x + w, point(0).y + h }; }$/;"	f	struct:Graph_lib::Ellipse
+color	Graph.h	/^	Color color() const { return lcolor; }$/;"	f	class:Graph_lib::Shape
+copy_elements	Matrix.h	/^    void copy_elements(const Matrix_base& a)$/;"	f	class:Numeric_lib::Matrix_base
+copy_elements	Matrix11.h	/^    void copy_elements(const Matrix_base& a)$/;"	f	class:Numeric_lib::Matrix_base
+courier	Graph.h	/^		courier=FL_COURIER,$/;"	e	enum:Graph_lib::Font::Font_type
+courier_bold	Graph.h	/^		courier_bold=FL_COURIER_BOLD,$/;"	e	enum:Graph_lib::Font::Font_type
+courier_bold_italic	Graph.h	/^		courier_bold_italic=FL_COURIER_BOLD_ITALIC,$/;"	e	enum:Graph_lib::Font::Font_type
+courier_italic	Graph.h	/^		courier_italic=FL_COURIER_ITALIC,$/;"	e	enum:Graph_lib::Font::Font_type
+cx	Graph.h	/^	int w,h,cx,cy; \/\/ define "masking box" within image relative to position (cx,cy)$/;"	m	struct:Graph_lib::Image
+cy	Graph.h	/^	int w,h,cx,cy; \/\/ define "masking box" within image relative to position (cx,cy)$/;"	m	struct:Graph_lib::Image
+cyan	Graph.h	/^		magenta=FL_MAGENTA, cyan=FL_CYAN, dark_red=FL_DARK_RED,$/;"	e	enum:Graph_lib::Color::Color_type
+d1	Matrix.h	/^    Matrix(const T (&a)[n]) : Matrix_base<T>(n), d1(n)$/;"	f	class:Numeric_lib::Matrix
+d1	Matrix.h	/^    const Index d1;$/;"	m	class:Numeric_lib::Matrix
+d1	Matrix11.h	/^    Matrix(const T (&a)[n]) : Matrix_base<T>(n), d1(n)$/;"	f	class:Numeric_lib::Matrix
+d1	Matrix11.h	/^    const Index d1;$/;"	m	class:Numeric_lib::Matrix
+d2	Matrix.h	/^    Matrix(const T (&a)[n1][n2]) : Matrix_base<T>(n1*n2), d1(n1), d2(n2)$/;"	f	class:Numeric_lib::Matrix
+d2	Matrix.h	/^    const Index d2;$/;"	m	class:Numeric_lib::Matrix
+d2	Matrix11.h	/^    Matrix(const T (&a)[n1][n2]) : Matrix_base<T>(n1*n2), d1(n1), d2(n2)$/;"	f	class:Numeric_lib::Matrix
+d2	Matrix11.h	/^    const Index d2;$/;"	m	class:Numeric_lib::Matrix
+d3	Matrix.h	/^    Matrix(const T (&a)[n1][n2][n3]) : Matrix_base<T>(n1*n2), d1(n1), d2(n2), d3(n3)$/;"	f	class:Numeric_lib::Matrix
+d3	Matrix.h	/^    const Index d3;$/;"	m	class:Numeric_lib::Matrix
+d3	Matrix11.h	/^    Matrix(const T (&a)[n1][n2][n3]) : Matrix_base<T>(n1*n2), d1(n1), d2(n2), d3(n3)$/;"	f	class:Numeric_lib::Matrix
+d3	Matrix11.h	/^    const Index d3;$/;"	m	class:Numeric_lib::Matrix
+dark_blue	Graph.h	/^		dark_green=FL_DARK_GREEN, dark_yellow=FL_DARK_YELLOW, dark_blue=FL_DARK_BLUE,$/;"	e	enum:Graph_lib::Color::Color_type
+dark_cyan	Graph.h	/^		dark_magenta=FL_DARK_MAGENTA, dark_cyan=FL_DARK_CYAN$/;"	e	enum:Graph_lib::Color::Color_type
+dark_green	Graph.h	/^		dark_green=FL_DARK_GREEN, dark_yellow=FL_DARK_YELLOW, dark_blue=FL_DARK_BLUE,$/;"	e	enum:Graph_lib::Color::Color_type
+dark_magenta	Graph.h	/^		dark_magenta=FL_DARK_MAGENTA, dark_cyan=FL_DARK_CYAN$/;"	e	enum:Graph_lib::Color::Color_type
+dark_red	Graph.h	/^		magenta=FL_MAGENTA, cyan=FL_CYAN, dark_red=FL_DARK_RED,$/;"	e	enum:Graph_lib::Color::Color_type
+dark_yellow	Graph.h	/^		dark_green=FL_DARK_GREEN, dark_yellow=FL_DARK_YELLOW, dark_blue=FL_DARK_BLUE,$/;"	e	enum:Graph_lib::Color::Color_type
+dash	Graph.h	/^		dash=FL_DASH,				\/\/ - - - -$/;"	e	enum:Graph_lib::Line_style::Line_style_type
+dashdot	Graph.h	/^		dashdot=FL_DASHDOT,			\/\/ - . - .$/;"	e	enum:Graph_lib::Line_style::Line_style_type
+dashdotdot	Graph.h	/^		dashdotdot=FL_DASHDOTDOT,	\/\/ -..-..$/;"	e	enum:Graph_lib::Line_style::Line_style_type
+data	Matrix.h	/^          T* data()       { return elem; }$/;"	f	class:Numeric_lib::Matrix_base
+data	Matrix.h	/^    const T* data() const { return elem; }$/;"	f	class:Numeric_lib::Matrix_base
+data	Matrix11.h	/^          T* data()       { return elem; }$/;"	f	class:Numeric_lib::Matrix_base
+data	Matrix11.h	/^    const T* data() const { return elem; }$/;"	f	class:Numeric_lib::Matrix_base
+defaultfloat	std_lib_facilities.h	/^inline ios_base& defaultfloat(ios_base& b)	\/\/ to augment fixed and scientific as in C++11$/;"	f
+detach	Window.cpp	/^void Window::detach(Shape& s)$/;"	f	class:Graph_lib::Window
+detach	Window.cpp	/^void Window::detach(Widget& b)$/;"	f	class:Graph_lib::Window
+dim1	Matrix.h	/^    Index dim1() const { return d1; }    \/\/ number of elements in a row$/;"	f	class:Numeric_lib::Matrix
+dim1	Matrix11.h	/^    Index dim1() const { return d1; }    \/\/ number of elements in a row$/;"	f	class:Numeric_lib::Matrix
+dim2	Matrix.h	/^    Index dim2() const { return d2; }    \/\/ number of elements in a column$/;"	f	class:Numeric_lib::Matrix
+dim2	Matrix11.h	/^    Index dim2() const { return d2; }    \/\/ number of elements in a column$/;"	f	class:Numeric_lib::Matrix
+dim3	Matrix.h	/^    Index dim3() const { return d3; }    \/\/ number of elements in a depth$/;"	f	class:Numeric_lib::Matrix
+dim3	Matrix11.h	/^    Index dim3() const { return d3; }    \/\/ number of elements in a depth$/;"	f	class:Numeric_lib::Matrix
+do_it	GUI.h	/^        Callback do_it;$/;"	m	class:Graph_lib::Widget
+do_it	Gui.h	/^	Callback do_it;$/;"	m	class:Graph_lib::Widget
+dot	Graph.h	/^		dot=FL_DOT,					\/\/ .......$/;"	e	enum:Graph_lib::Line_style::Line_style_type
+dot_product	Matrix.h	/^template<class T> T dot_product(const Matrix<T>&a , const Matrix<T>& b)$/;"	f	namespace:Numeric_lib
+dot_product	Matrix11.h	/^template<class T> T dot_product(const Matrix<T>&a , const Matrix<T>& b)$/;"	f	namespace:Numeric_lib
+draw	Graph.cpp	/^void Shape::draw() const$/;"	f	class:Graph_lib::Shape
+draw	Graph.h	/^	void draw(int x,int y, int, int, int, int) { draw_empty(x,y); }$/;"	f	struct:Graph_lib::Bad_image
+draw	Window.cpp	/^void Window::draw()$/;"	f	class:Graph_lib::Window
+draw_lines	Graph.cpp	/^void Axis::draw_lines() const$/;"	f	class:Graph_lib::Axis
+draw_lines	Graph.cpp	/^void Circle::draw_lines() const$/;"	f	class:Graph_lib::Circle
+draw_lines	Graph.cpp	/^void Closed_polyline::draw_lines() const$/;"	f	class:Graph_lib::Closed_polyline
+draw_lines	Graph.cpp	/^void Ellipse::draw_lines() const$/;"	f	class:Graph_lib::Ellipse
+draw_lines	Graph.cpp	/^void Image::draw_lines() const$/;"	f	class:Graph_lib::Image
+draw_lines	Graph.cpp	/^void Lines::draw_lines() const$/;"	f	class:Graph_lib::Lines
+draw_lines	Graph.cpp	/^void Marked_polyline::draw_lines() const$/;"	f	class:Graph_lib::Marked_polyline
+draw_lines	Graph.cpp	/^void Open_polyline::draw_lines() const$/;"	f	class:Graph_lib::Open_polyline
+draw_lines	Graph.cpp	/^void Polygon::draw_lines() const$/;"	f	class:Graph_lib::Polygon
+draw_lines	Graph.cpp	/^void Rectangle::draw_lines() const$/;"	f	class:Graph_lib::Rectangle
+draw_lines	Graph.cpp	/^void Shape::draw_lines() const$/;"	f	class:Graph_lib::Shape
+draw_lines	Graph.cpp	/^void Text::draw_lines() const$/;"	f	class:Graph_lib::Text
+draw_mark	Graph.cpp	/^void draw_mark(Point xy, char c)$/;"	f	namespace:Graph_lib
+elem	Matrix.h	/^    T* elem;    \/\/ vector? no: we couldn't easily provide a vector for a slice$/;"	m	class:Numeric_lib::Matrix_base
+elem	Matrix11.h	/^    T* elem;    \/\/ vector? no: we couldn't easily provide a vector for a slice$/;"	m	class:Numeric_lib::Matrix_base
+error	Matrix.h	/^inline void error(const char* p)$/;"	f	namespace:Numeric_lib
+error	Matrix11.h	/^inline void error(const char* p)$/;"	f	namespace:Numeric_lib
+error	error.h	/^inline void error(const string& s)$/;"	f
+error	error.h	/^inline void error(const string& s, const string& s2)$/;"	f
+error	error.h	/^inline void error(const string& s, int i)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s, const string& s2)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s, int i)$/;"	f
+f	Graph.h	/^	int f;$/;"	m	class:Graph_lib::Font
+fcolor	Graph.h	/^	Color fcolor;$/;"	m	struct:Graph_lib::Fill
+fill_color	Graph.h	/^	Color fill_color() const { return fcolor; }$/;"	f	class:Graph_lib::Shape
+fill_color	Graph.h	/^	Color fill_color() { return fcolor; }$/;"	f	struct:Graph_lib::Fill
+find	Graph.h	/^		Iterator<C> find(C& c, Val v)$/;"	f	namespace:Graph_lib
+find	std_lib_facilities.h	/^Iterator<C> find(C& c, Val v)$/;"	f
+find_if	Graph.h	/^		Iterator<C> find_if(C& c, Pred p)$/;"	f	namespace:Graph_lib
+find_if	std_lib_facilities.h	/^Iterator<C> find_if(C& c, Pred p)$/;"	f
+fn	Graph.h	/^	Text fn;$/;"	m	struct:Graph_lib::Image
+focus1	Graph.h	/^	Point focus1() const { return{ center().x + int(sqrt(double(w*w - h*h))), center().y }; }$/;"	f	struct:Graph_lib::Ellipse
+focus2	Graph.h	/^	Point focus2() const { return{ center().x - int(sqrt(double(w*w - h*h))), center().y }; }$/;"	f	struct:Graph_lib::Ellipse
+font	Graph.h	/^	Font font() const { return Font(fnt); }$/;"	f	struct:Graph_lib::Text
+font_size	Graph.h	/^	int font_size() const { return fnt_sz; }$/;"	f	struct:Graph_lib::Text
+get_encoding	Graph.cpp	/^Suffix::Encoding get_encoding(const string& s)$/;"	f	namespace:Graph_lib
+get_int	GUI.cpp	/^int In_box::get_int()$/;"	f	class:In_box
+get_rand	std_lib_facilities.h	/^default_random_engine& get_rand()$/;"	f
+get_string	GUI.cpp	/^string In_box::get_string()$/;"	f	class:In_box
+gif	Graph.h	/^	enum Encoding { none, jpg, gif, bmp };$/;"	e	enum:Graph_lib::Suffix::Encoding
+green	Graph.h	/^		red=FL_RED, blue=FL_BLUE, green=FL_GREEN,$/;"	e	enum:Graph_lib::Color::Color_type
+gui_main	Window.cpp	/^int gui_main() { return Fl::run(); }$/;"	f	namespace:Graph_lib
+h	Graph.h	/^	int h;			\/\/ height$/;"	m	struct:Graph_lib::Rectangle
+h	Graph.h	/^	int h;$/;"	m	struct:Graph_lib::Ellipse
+h	Graph.h	/^	int w,h,cx,cy; \/\/ define "masking box" within image relative to position (cx,cy)$/;"	m	struct:Graph_lib::Image
+h	Window.h	/^	  int w,h;					\/\/ window size$/;"	m	class:Graph_lib::Window
+hash	std_lib_facilities.h	/^    template<> struct hash<String>$/;"	s	namespace:std
+height	GUI.h	/^        int height;$/;"	m	class:Graph_lib::Widget
+height	Graph.h	/^	int height() const { return h; }$/;"	f	struct:Graph_lib::Rectangle
+height	Gui.h	/^	int height;$/;"	m	class:Graph_lib::Widget
+helvetica	Graph.h	/^		helvetica=FL_HELVETICA,$/;"	e	enum:Graph_lib::Font::Font_type
+helvetica_bold	Graph.h	/^		helvetica_bold=FL_HELVETICA_BOLD,$/;"	e	enum:Graph_lib::Font::Font_type
+helvetica_bold_italic	Graph.h	/^		helvetica_bold_italic=FL_HELVETICA_BOLD_ITALIC,$/;"	e	enum:Graph_lib::Font::Font_type
+helvetica_italic	Graph.h	/^		helvetica_italic=FL_HELVETICA_ITALIC,$/;"	e	enum:Graph_lib::Font::Font_type
+hide	GUI.h	/^        virtual void hide() { pw->hide(); }$/;"	f	class:Graph_lib::Widget
+hide	GUI.h	/^        void hide()                 \/\/ hide all buttons$/;"	f	struct:Graph_lib::Menu
+hide	Gui.h	/^	virtual void hide() { pw->hide(); }$/;"	f	class:Graph_lib::Widget
+hide	Gui.h	/^	void hide() { for (int i = 0; i<selection.size(); ++i) selection[i].hide(); }$/;"	f	struct:Graph_lib::Menu
+horizontal	GUI.h	/^        enum Kind { horizontal, vertical };$/;"	e	enum:Graph_lib::Menu::Kind
+horizontal	Gui.h	/^	enum Kind { horizontal, vertical };$/;"	e	enum:Graph_lib::Menu::Kind
+index	std_lib_facilities.h	/^	int index;$/;"	m	struct:Range_error
+init	Window.cpp	/^void Window::init()$/;"	f	class:Graph_lib::Window
+init_suffix_map	Graph.cpp	/^int init_suffix_map()$/;"	f	namespace:Graph_lib
+invisible	Graph.h	/^	enum Transparency { invisible = 0, visible=255 };$/;"	e	enum:Graph_lib::Color::Transparency
+jpg	Graph.h	/^	enum Encoding { none, jpg, gif, bmp };$/;"	e	enum:Graph_lib::Suffix::Encoding
+k	GUI.h	/^        Kind k;$/;"	m	struct:Graph_lib::Menu
+k	Gui.h	/^	Kind k;$/;"	m	struct:Graph_lib::Menu
+keep_window_open	std_lib_facilities.h	/^inline void keep_window_open()$/;"	f
+keep_window_open	std_lib_facilities.h	/^inline void keep_window_open(string s)$/;"	f
+lab	Graph.h	/^	string lab;	\/\/ label$/;"	m	struct:Graph_lib::Text
+label	GUI.h	/^        string label;$/;"	m	class:Graph_lib::Widget
+label	Graph.h	/^	Text label;$/;"	m	struct:Graph_lib::Axis
+label	Graph.h	/^	string label() const { return lab; }$/;"	f	struct:Graph_lib::Text
+label	Gui.h	/^	string label;$/;"	m	class:Graph_lib::Widget
+line_intersect	Graph.cpp	/^inline pair<double,double> line_intersect(Point p1, Point p2, Point p3, Point p4, bool& parallel)$/;"	f	namespace:Graph_lib
+line_segment_intersect	Graph.cpp	/^bool line_segment_intersect(Point p1, Point p2, Point p3, Point p4, Point& intersection){$/;"	f	namespace:Graph_lib
+lines	chapter.16.5.cpp	/^    Open_polyline lines;$/;"	m	struct:Lines_window	file:
+loc	GUI.h	/^        Point loc;$/;"	m	class:Graph_lib::Widget
+loc	Gui.h	/^	Point loc;$/;"	m	class:Graph_lib::Widget
+magenta	Graph.h	/^		magenta=FL_MAGENTA, cyan=FL_CYAN, dark_red=FL_DARK_RED,$/;"	e	enum:Graph_lib::Color::Color_type
+main	ch12_1.cpp	/^int main()$/;"	f
+main	ch12_ppp.cpp	/^int main()$/;"	f
+main	chapter.16.5.cpp	/^int main()$/;"	f
+main	fltk_test.cpp	/^int main()$/;"	f
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+major	Graph.h	/^	int major() const { return w; }$/;"	f	struct:Graph_lib::Ellipse
+major	Graph.h	33;"	d
+mark	Graph.h	/^	string mark;$/;"	m	struct:Graph_lib::Marked_polyline
+max	std_lib_facilities.h	205;"	d
+min	std_lib_facilities.h	204;"	d
+minor	Graph.h	/^	int minor() const { return h; }$/;"	f	struct:Graph_lib::Ellipse
+minor	Graph.h	34;"	d
+move	GUI.h	/^        virtual void move(int dx,int dy) { hide(); pw->position(loc.x+=dx, loc.y+=dy); show(); }$/;"	f	class:Graph_lib::Widget
+move	GUI.h	/^        void move(int dx, int dy)   \/\/ move all buttons$/;"	f	struct:Graph_lib::Menu
+move	Graph.cpp	/^void Axis::move(int dx, int dy)$/;"	f	class:Graph_lib::Axis
+move	Graph.cpp	/^void Shape::move(int dx, int dy)$/;"	f	class:Graph_lib::Shape
+move	Graph.h	/^	void move(int dx,int dy) { Shape::move(dx,dy); p->draw(point(0).x,point(0).y); }$/;"	f	struct:Graph_lib::Image
+move	Gui.h	/^	virtual void move(int dx,int dy) { hide(); pw->position(loc.x+=dx, loc.y+=dy); show(); }$/;"	f	class:Graph_lib::Widget
+move	Gui.h	/^	void move(int dx, int dy)$/;"	f	struct:Graph_lib::Menu
+name	Matrix.h	/^    std::string name;$/;"	m	struct:Numeric_lib::Matrix_error
+name	Matrix11.h	/^    std::string name;$/;"	m	struct:Numeric_lib::Matrix_error
+narrow_cast	std_lib_facilities.h	/^template<class R, class A> R narrow_cast(const A& a)$/;"	f
+next	Simple_window.cpp	/^void Simple_window::next()$/;"	f	class:Simple_window
+next	Simple_window.h	/^	void next() { button_pushed = true; }$/;"	f	struct:Simple_window
+next	chapter.16.5.cpp	/^void Lines_window::next()$/;"	f	class:Lines_window
+next_button	Simple_window.h	/^	Button next_button;$/;"	m	struct:Simple_window
+next_button	chapter.16.5.cpp	/^    Button next_button;        \/\/ add (next_x,next_y) to lines$/;"	m	struct:Lines_window	file:
+next_x	chapter.16.5.cpp	/^    In_box next_x;$/;"	m	struct:Lines_window	file:
+next_y	chapter.16.5.cpp	/^    In_box next_y;$/;"	m	struct:Lines_window	file:
+no_fill	Graph.h	/^	bool no_fill;$/;"	m	struct:Graph_lib::Fill
+none	Graph.h	/^	enum Encoding { none, jpg, gif, bmp };$/;"	e	enum:Graph_lib::Suffix::Encoding
+notches	Graph.h	/^	Lines notches;$/;"	m	struct:Graph_lib::Axis
+number_of_points	Graph.h	/^	int number_of_points() const { return int(points.size()); }$/;"	f	class:Graph_lib::Shape
+offset	GUI.h	/^        int offset;$/;"	m	struct:Graph_lib::Menu
+offset	Gui.h	/^	int offset;$/;"	m	struct:Graph_lib::Menu
+operator !	Matrix.h	/^    Matrix operator!() { return xfer(Matrix(*this,Not<T>())); }$/;"	f	class:Numeric_lib::Matrix
+operator !	Matrix11.h	/^    Matrix operator!() { return xfer(Matrix(*this,Not<T>())); }$/;"	f	class:Numeric_lib::Matrix
+operator !=	Point.h	/^inline bool operator!=(Point a, Point b) { return !(a==b); }$/;"	f	namespace:Graph_lib
+operator %	Matrix.h	/^template<class T, int D> Matrix<T,D> operator%(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r%=c; }$/;"	f	namespace:Numeric_lib
+operator %	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator%(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r%=c; }$/;"	f	namespace:Numeric_lib
+operator %=	Matrix.h	/^    Matrix& operator%=(const T& c) { this->base_apply(Mod_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator %=	Matrix11.h	/^    Matrix& operator%=(const T& c) { this->base_apply(Mod_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator &	Matrix.h	/^template<class T, int D> Matrix<T,D> operator&(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r&=c; }$/;"	f	namespace:Numeric_lib
+operator &	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator&(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r&=c; }$/;"	f	namespace:Numeric_lib
+operator &=	Matrix.h	/^    Matrix& operator&=(const T& c) { this->base_apply(And_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator &=	Matrix11.h	/^    Matrix& operator&=(const T& c) { this->base_apply(And_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^          T& operator()(Index n1)       { range_check(n1); return this->elem[n1]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^          T& operator()(Index n1, Index n2)       { range_check(n1,n2); return this->elem[n1*d2+n2]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^          T& operator()(Index n1, Index n2, Index n3)       { range_check(n1,n2,n3); return this->elem[d2*d3*n1+d3*n2+n3]; }; $/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^    T operator()(T& a) { return !a; }$/;"	f	struct:Numeric_lib::Not
+operator ()	Matrix.h	/^    T operator()(T& a) { return -a; }$/;"	f	struct:Numeric_lib::Unary_minus
+operator ()	Matrix.h	/^    T operator()(T& a) { return ~a; }$/;"	f	struct:Numeric_lib::Complement
+operator ()	Matrix.h	/^    const T& operator()(Index n1) const { range_check(n1); return this->elem[n1]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^    const T& operator()(Index n1, Index n2) const { range_check(n1,n2); return this->elem[n1*d2+n2]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^    const T& operator()(Index n1, Index n2, Index n3) const { range_check(n1,n2,n3); return this->elem[d2*d3*n1+d3*n2+n3]; };$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix.h	/^    void operator()(T& a) { a = !a; }$/;"	f	struct:Numeric_lib::Not_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a %= c; }$/;"	f	struct:Numeric_lib::Mod_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a &= c; }$/;"	f	struct:Numeric_lib::And_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a *= c; }$/;"	f	struct:Numeric_lib::Mul_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a += c; }$/;"	f	struct:Numeric_lib::Add_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a -= c; }$/;"	f	struct:Numeric_lib::Minus_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a = c; }$/;"	f	struct:Numeric_lib::Assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a \/= c; }$/;"	f	struct:Numeric_lib::Div_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a ^= c; }$/;"	f	struct:Numeric_lib::Xor_assign
+operator ()	Matrix.h	/^    void operator()(T& a, const T& c) { a |= c; }$/;"	f	struct:Numeric_lib::Or_assign
+operator ()	Matrix11.h	/^          T& operator()(Index n1)       { range_check(n1); return this->elem[n1]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix11.h	/^          T& operator()(Index n1, Index n2)       { range_check(n1,n2); return this->elem[n1*d2+n2]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix11.h	/^          T& operator()(Index n1, Index n2, Index n3)       { range_check(n1,n2,n3); return this->elem[d2*d3*n1+d3*n2+n3]; }; $/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix11.h	/^    T operator()(T& a) { return !a; }$/;"	f	struct:Numeric_lib::Not
+operator ()	Matrix11.h	/^    T operator()(T& a) { return -a; }$/;"	f	struct:Numeric_lib::Unary_minus
+operator ()	Matrix11.h	/^    T operator()(T& a) { return ~a; }$/;"	f	struct:Numeric_lib::Complement
+operator ()	Matrix11.h	/^    const T& operator()(Index n1) const { range_check(n1); return this->elem[n1]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix11.h	/^    const T& operator()(Index n1, Index n2) const { range_check(n1,n2); return this->elem[n1*d2+n2]; }$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix11.h	/^    const T& operator()(Index n1, Index n2, Index n3) const { range_check(n1,n2,n3); return this->elem[d2*d3*n1+d3*n2+n3]; };$/;"	f	class:Numeric_lib::Matrix
+operator ()	Matrix11.h	/^    void operator()(T& a) { a = !a; }$/;"	f	struct:Numeric_lib::Not_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a %= c; }$/;"	f	struct:Numeric_lib::Mod_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a &= c; }$/;"	f	struct:Numeric_lib::And_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a *= c; }$/;"	f	struct:Numeric_lib::Mul_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a += c; }$/;"	f	struct:Numeric_lib::Add_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a -= c; }$/;"	f	struct:Numeric_lib::Minus_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a = c; }$/;"	f	struct:Numeric_lib::Assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a \/= c; }$/;"	f	struct:Numeric_lib::Div_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a ^= c; }$/;"	f	struct:Numeric_lib::Xor_assign
+operator ()	Matrix11.h	/^    void operator()(T& a, const T& c) { a |= c; }$/;"	f	struct:Numeric_lib::Or_assign
+operator ()	std_lib_facilities.h	/^        size_t operator()(const String& s) const$/;"	f	struct:std::hash
+operator *	Matrix.h	/^template<class T, int D> Matrix<T,D> operator*(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r*=c; }$/;"	f	namespace:Numeric_lib
+operator *	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator*(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r*=c; }$/;"	f	namespace:Numeric_lib
+operator *=	Matrix.h	/^    Matrix& operator*=(const T& c) { this->base_apply(Mul_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator *=	Matrix11.h	/^    Matrix& operator*=(const T& c) { this->base_apply(Mul_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator +	Matrix.h	/^template<class T, int D> Matrix<T,D> operator+(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r+=c; }$/;"	f	namespace:Numeric_lib
+operator +	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator+(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r+=c; }$/;"	f	namespace:Numeric_lib
+operator +=	Matrix.h	/^    Matrix& operator+=(const T& c) { this->base_apply(Add_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator +=	Matrix11.h	/^    Matrix& operator+=(const T& c) { this->base_apply(Add_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator +=	Point.h	/^	Point& operator+=(Point d) { x+=d.x; y+=d.y; return *this; }$/;"	f	struct:Graph_lib::Point
+operator -	Matrix.h	/^    Matrix operator-() { return xfer(Matrix(*this,Unary_minus<T>())); }$/;"	f	class:Numeric_lib::Matrix
+operator -	Matrix.h	/^template<class T, int D> Matrix<T,D> operator-(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r-=c; }$/;"	f	namespace:Numeric_lib
+operator -	Matrix11.h	/^    Matrix operator-() { return xfer(Matrix(*this,Unary_minus<T>())); }$/;"	f	class:Numeric_lib::Matrix
+operator -	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator-(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r-=c; }$/;"	f	namespace:Numeric_lib
+operator -=	Matrix.h	/^    Matrix& operator-=(const T& c) { this->base_apply(Minus_assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator -=	Matrix11.h	/^    Matrix& operator-=(const T& c) { this->base_apply(Minus_assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator /	Matrix.h	/^template<class T, int D> Matrix<T,D> operator\/(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r\/=c; }$/;"	f	namespace:Numeric_lib
+operator /	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator\/(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r\/=c; }$/;"	f	namespace:Numeric_lib
+operator /=	Matrix.h	/^    Matrix& operator\/=(const T& c) { this->base_apply(Div_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator /=	Matrix11.h	/^    Matrix& operator\/=(const T& c) { this->base_apply(Div_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator <<	MatrixIO.h	/^template<class T> std::ostream& operator<<(std::ostream& os, const Matrix<T,2>& m)$/;"	f	namespace:Numeric_lib
+operator <<	MatrixIO.h	/^template<class T> std::ostream& operator<<(std::ostream& os, const Matrix<T>& v)$/;"	f	namespace:Numeric_lib
+operator <<	MatrixIO11.h	/^template<class T> std::ostream& operator<<(std::ostream& os, const Matrix<T,2>& m)$/;"	f	namespace:Numeric_lib
+operator <<	MatrixIO11.h	/^template<class T> std::ostream& operator<<(std::ostream& os, const Matrix<T>& v)$/;"	f	namespace:Numeric_lib
+operator =	Matrix.h	/^    Matrix& operator=(const Matrix& a)$/;"	f	class:Numeric_lib::Matrix
+operator =	Matrix.h	/^    Matrix& operator=(const T& c)  { this->base_apply(Assign<T>(),c);       return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator =	Matrix.h	/^    Matrix<T,1>& operator=(const Matrix<T,1>& a)$/;"	f	class:Numeric_lib::Row
+operator =	Matrix.h	/^    Matrix<T,1>& operator=(const T& c) { this->base_apply(Assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Row
+operator =	Matrix.h	/^    Matrix<T,2>& operator=(const Matrix<T,2>& a)$/;"	f	class:Numeric_lib::Row
+operator =	Matrix.h	/^    Matrix<T,2>& operator=(const T& c) { this->base_apply(Assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Row
+operator =	Matrix.h	/^    Matrix<T,3>& operator=(const Matrix<T,3>& a)$/;"	f	class:Numeric_lib::Row
+operator =	Matrix.h	/^    Matrix<T,3>& operator=(const T& c) { this->base_apply(Assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Row
+operator =	Matrix11.h	/^    Matrix& operator=(const Matrix& a)$/;"	f	class:Numeric_lib::Matrix
+operator =	Matrix11.h	/^    Matrix& operator=(const T& c)  { this->base_apply(Assign<T>(),c);       return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator =	Matrix11.h	/^    Matrix<T,1>& operator=(const Matrix<T,1>& a)$/;"	f	class:Numeric_lib::Row
+operator =	Matrix11.h	/^    Matrix<T,1>& operator=(const T& c) { this->base_apply(Assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Row
+operator =	Matrix11.h	/^    Matrix<T,2>& operator=(const Matrix<T,2>& a)$/;"	f	class:Numeric_lib::Row
+operator =	Matrix11.h	/^    Matrix<T,2>& operator=(const T& c) { this->base_apply(Assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Row
+operator =	Matrix11.h	/^    Matrix<T,3>& operator=(const Matrix<T,3>& a)$/;"	f	class:Numeric_lib::Row
+operator =	Matrix11.h	/^    Matrix<T,3>& operator=(const T& c) { this->base_apply(Assign<T>(),c); return *this; }$/;"	f	class:Numeric_lib::Row
+operator ==	Point.h	/^inline bool operator==(Point a, Point b) { return a.x==b.x && a.y==b.y; }$/;"	f	namespace:Graph_lib
+operator >>	MatrixIO.h	/^template<class T> std::istream& operator>>(std::istream& is, Matrix<T,2>& m)$/;"	f	namespace:Numeric_lib
+operator >>	MatrixIO.h	/^template<class T> std::istream& operator>>(std::istream& is, Matrix<T>& v)$/;"	f	namespace:Numeric_lib
+operator >>	MatrixIO11.h	/^template<class T> std::istream& operator>>(std::istream& is, Matrix<T,2>& m)$/;"	f	namespace:Numeric_lib
+operator >>	MatrixIO11.h	/^template<class T> std::istream& operator>>(std::istream& is, Matrix<T>& v)$/;"	f	namespace:Numeric_lib
+operator []	Graph.h	/^	T& operator[](int i) { return *v[i]; }$/;"	f	class:Graph_lib::Vector_ref
+operator []	Graph.h	/^	const T& operator[](int i) const { return *v[i]; }$/;"	f	class:Graph_lib::Vector_ref
+operator []	Matrix.h	/^          Row<T,1> operator[](Index n)       { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix.h	/^          Row<T,2> operator[](Index n)       { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix.h	/^          T& operator[](Index n)       { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix.h	/^    const Row<T,1> operator[](Index n) const { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix.h	/^    const Row<T,2> operator[](Index n) const { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix.h	/^    const T& operator[](Index n) const { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix11.h	/^          Row<T,1> operator[](Index n)       { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix11.h	/^          Row<T,2> operator[](Index n)       { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix11.h	/^          T& operator[](Index n)       { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix11.h	/^    const Row<T,1> operator[](Index n) const { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix11.h	/^    const Row<T,2> operator[](Index n) const { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	Matrix11.h	/^    const T& operator[](Index n) const { return row(n); }$/;"	f	class:Numeric_lib::Matrix
+operator []	std_lib_facilities.h	/^	T& operator[](unsigned int i) \/\/ rather than return at(i);$/;"	f	struct:Vector
+operator []	std_lib_facilities.h	/^	char& operator[](unsigned int i) \/\/ rather than return at(i);$/;"	f	struct:String
+operator []	std_lib_facilities.h	/^	const T& operator[](unsigned int i) const$/;"	f	struct:Vector
+operator []	std_lib_facilities.h	/^	const char& operator[](unsigned int i) const$/;"	f	struct:String
+operator ^	Matrix.h	/^template<class T, int D> Matrix<T,D> operator^(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r^=c; }$/;"	f	namespace:Numeric_lib
+operator ^	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator^(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r^=c; }$/;"	f	namespace:Numeric_lib
+operator ^=	Matrix.h	/^    Matrix& operator^=(const T& c) { this->base_apply(Xor_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator ^=	Matrix11.h	/^    Matrix& operator^=(const T& c) { this->base_apply(Xor_assign<T>(),c);   return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator |	Matrix.h	/^template<class T, int D> Matrix<T,D> operator|(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r|=c; }$/;"	f	namespace:Numeric_lib
+operator |	Matrix11.h	/^template<class T, int D> Matrix<T,D> operator|(const Matrix<T,D>& m, const T& c) { Matrix<T,D> r(m); return r|=c; }$/;"	f	namespace:Numeric_lib
+operator |=	Matrix.h	/^    Matrix& operator|=(const T& c) { this->base_apply(Or_assign<T>(),c);    return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator |=	Matrix11.h	/^    Matrix& operator|=(const T& c) { this->base_apply(Or_assign<T>(),c);    return *this; }$/;"	f	class:Numeric_lib::Matrix
+operator ~	Matrix.h	/^    Matrix operator~() { return xfer(Matrix(*this,Complement<T>()));  }$/;"	f	class:Numeric_lib::Matrix
+operator ~	Matrix11.h	/^    Matrix operator~() { return xfer(Matrix(*this,Complement<T>()));  }$/;"	f	class:Numeric_lib::Matrix
+own	GUI.h	/^        Window* own;    \/\/ every Widget belongs to a Window$/;"	m	class:Graph_lib::Widget
+own	Gui.h	/^	Window* own;	\/\/ every Widget belongs to a Window$/;"	m	class:Graph_lib::Widget
+owned	Graph.h	/^	vector<T*> owned;$/;"	m	class:Graph_lib::Vector_ref
+owns	Matrix.h	/^    mutable bool owns;$/;"	m	class:Numeric_lib::Matrix_base
+owns	Matrix11.h	/^    mutable bool owns;$/;"	m	class:Numeric_lib::Matrix_base
+p	Graph.h	/^	Fl_Image* p;$/;"	m	struct:Graph_lib::Image
+point	Graph.h	/^	Point point(int i) const { return points[i]; }$/;"	f	class:Graph_lib::Shape
+points	Graph.h	/^	vector<Point> points;	\/\/ not used by all shapes$/;"	m	class:Graph_lib::Shape
+push_back	Graph.h	/^	void push_back(T& s) { v.push_back(&s); }$/;"	f	class:Graph_lib::Vector_ref
+push_back	Graph.h	/^	void push_back(T* p) { v.push_back(p); owned.push_back(p); }$/;"	f	class:Graph_lib::Vector_ref
+put	GUI.cpp	/^void Out_box::put(const string& s)$/;"	f	class:Out_box
+put	GUI.cpp	/^void Out_box::put(int i)$/;"	f	class:Out_box
+put_on_top	Window.cpp	/^void Window::put_on_top(Shape& p) {$/;"	f	class:Graph_lib::Window
+pw	GUI.h	/^        Fl_Widget* pw;  \/\/ connection to the FLTK Widget$/;"	m	class:Graph_lib::Widget
+pw	Gui.h	/^	Fl_Widget* pw;$/;"	m	class:Graph_lib::Widget
+quit	chapter.16.5.cpp	/^void Lines_window::quit()$/;"	f	class:Lines_window
+quit_button	chapter.16.5.cpp	/^    Button quit_button;$/;"	m	struct:Lines_window	file:
+r	Graph.h	/^	int r;$/;"	m	struct:Graph_lib::Circle
+radius	Graph.h	/^	int radius() const { return r; }$/;"	f	struct:Graph_lib::Circle
+randint	std_lib_facilities.h	/^inline int randint(int max) { return randint(0, max); }$/;"	f
+randint	std_lib_facilities.h	/^inline int randint(int min, int max) {  return uniform_int_distribution<>{min, max}(get_rand()); }$/;"	f
+range_check	Matrix.h	/^    void range_check(Index n1) const$/;"	f	class:Numeric_lib::Matrix
+range_check	Matrix.h	/^    void range_check(Index n1, Index n2) const$/;"	f	class:Numeric_lib::Matrix
+range_check	Matrix.h	/^    void range_check(Index n1, Index n2, Index n3) const$/;"	f	class:Numeric_lib::Matrix
+range_check	Matrix11.h	/^    void range_check(Index n1) const$/;"	f	class:Numeric_lib::Matrix
+range_check	Matrix11.h	/^    void range_check(Index n1, Index n2) const$/;"	f	class:Numeric_lib::Matrix
+range_check	Matrix11.h	/^    void range_check(Index n1, Index n2, Index n3) const$/;"	f	class:Numeric_lib::Matrix
+red	Graph.h	/^		red=FL_RED, blue=FL_BLUE, green=FL_GREEN,$/;"	e	enum:Graph_lib::Color::Color_type
+reference_to	GUI.h	/^    template<class W> W& reference_to(Address pw)$/;"	f	namespace:Graph_lib
+reference_to	Gui.h	/^template<class W> W& reference_to(Address pw)$/;"	f	namespace:Graph_lib
+resize	Window.h	/^	void resize(int ww, int hh) { w=ww, h=hh; size(ww,hh); }$/;"	f	class:Graph_lib::Window
+row	Matrix.h	/^          Row<T,1> row(Index n)       { range_check(n,0); return Row<T,1>(d2,&this->elem[n*d2]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix.h	/^          Row<T,2> row(Index n)       { range_check(n,0,0); return Row<T,2>(d2,d3,&this->elem[n*d2*d3]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix.h	/^          T& row(Index n)       { range_check(n); return this->elem[n]; }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix.h	/^    const Row<T,1> row(Index n) const { range_check(n,0); return Row<T,1>(d2,&this->elem[n*d2]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix.h	/^    const Row<T,2> row(Index n) const { range_check(n,0,0); return Row<T,2>(d2,d3,&this->elem[n*d2*d3]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix.h	/^    const T& row(Index n) const { range_check(n); return this->elem[n]; }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix11.h	/^          Row<T,1> row(Index n)       { range_check(n,0); return Row<T,1>(d2,&this->elem[n*d2]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix11.h	/^          Row<T,2> row(Index n)       { range_check(n,0,0); return Row<T,2>(d2,d3,&this->elem[n*d2*d3]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix11.h	/^          T& row(Index n)       { range_check(n); return this->elem[n]; }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix11.h	/^    const Row<T,1> row(Index n) const { range_check(n,0); return Row<T,1>(d2,&this->elem[n*d2]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix11.h	/^    const Row<T,2> row(Index n) const { range_check(n,0,0); return Row<T,2>(d2,d3,&this->elem[n*d2*d3]); }$/;"	f	class:Numeric_lib::Matrix
+row	Matrix11.h	/^    const T& row(Index n) const { range_check(n); return this->elem[n]; }$/;"	f	class:Numeric_lib::Matrix
+s	Graph.h	/^	int s;$/;"	m	struct:Graph_lib::Line_style
+scale_and_add	Matrix.h	/^template<class T, int N> Matrix<T,N-1> scale_and_add(const Matrix<T,N>& a, const Matrix<T,N-1> c, const Matrix<T,N-1>& b)$/;"	f	namespace:Numeric_lib
+scale_and_add	Matrix.h	/^template<class T> Matrix<T> scale_and_add(const Matrix<T>& a, T c, const Matrix<T>& b)$/;"	f	namespace:Numeric_lib
+scale_and_add	Matrix11.h	/^template<class T, int N> Matrix<T,N-1> scale_and_add(const Matrix<T,N>& a, const Matrix<T,N-1> c, const Matrix<T,N-1>& b)$/;"	f	namespace:Numeric_lib
+scale_and_add	Matrix11.h	/^template<class T> Matrix<T> scale_and_add(const Matrix<T>& a, T c, const Matrix<T>& b)$/;"	f	namespace:Numeric_lib
+screen	Graph.h	/^		screen=FL_SCREEN,$/;"	e	enum:Graph_lib::Font::Font_type
+screen_bold	Graph.h	/^		screen_bold=FL_SCREEN_BOLD,$/;"	e	enum:Graph_lib::Font::Font_type
+seed_randint	std_lib_facilities.h	/^void seed_randint(int s) { get_rand().seed(s); }$/;"	f
+selection	GUI.h	/^        Vector_ref<Button> selection;$/;"	m	struct:Graph_lib::Menu
+selection	Gui.h	/^	Vector_ref<Button> selection;$/;"	m	struct:Graph_lib::Menu
+set_color	Graph.cpp	/^void Axis::set_color(Color c)$/;"	f	class:Graph_lib::Axis
+set_color	Graph.h	/^	void set_color(Color col) { lcolor = col; }$/;"	f	class:Graph_lib::Shape
+set_fill_color	Graph.h	/^	void set_fill_color(Color col) { fcolor = col; }$/;"	f	class:Graph_lib::Shape
+set_fill_color	Graph.h	/^	void set_fill_color(Color col) { fcolor = col; }$/;"	f	struct:Graph_lib::Fill
+set_font	Graph.h	/^	void set_font(Font f) { fnt = f; }$/;"	f	struct:Graph_lib::Text
+set_font_size	Graph.h	/^	void set_font_size(int s) { fnt_sz = s; }$/;"	f	struct:Graph_lib::Text
+set_label	Graph.h	/^	void set_label(const string& s) { lab = s; }$/;"	f	struct:Graph_lib::Text
+set_label	Window.h	/^	void set_label(const string& s) { label(s.c_str()); }$/;"	f	class:Graph_lib::Window
+set_major	Graph.h	/^	void set_major(int ww) { w=ww; }$/;"	f	struct:Graph_lib::Ellipse
+set_mask	Graph.h	/^	void set_mask(Point xy, int ww, int hh) { w=ww; h=hh; cx=xy.x; cy=xy.y; }$/;"	f	struct:Graph_lib::Image
+set_minor	Graph.h	/^	void set_minor(int hh) { h=hh; }$/;"	f	struct:Graph_lib::Ellipse
+set_point	Graph.h	/^	void set_point(int i, Point p) { points[i] = p; }$/;"	f	class:Graph_lib::Shape
+set_radius	Graph.h	/^	void set_radius(int rr) { r=rr; }$/;"	f	struct:Graph_lib::Circle
+set_style	Graph.h	/^	void set_style(Line_style sty) { ls = sty; }$/;"	f	class:Graph_lib::Shape
+set_visibility	Graph.h	/^	void set_visibility(Transparency vv) { v=vv; }$/;"	f	struct:Graph_lib::Color
+shapes	Window.h	/^	  vector<Shape*> shapes;	\/\/ shapes attached to window$/;"	m	class:Graph_lib::Window
+show	GUI.h	/^        virtual void show() { pw->show(); }$/;"	f	class:Graph_lib::Widget
+show	GUI.h	/^        void show()                 \/\/ show all buttons$/;"	f	struct:Graph_lib::Menu
+show	Gui.h	/^	virtual void show() { pw->show(); }$/;"	f	class:Graph_lib::Widget
+show	Gui.h	/^	void show() { for (int i = 0; i<selection.size(); ++i) selection[i].show(); }$/;"	f	struct:Graph_lib::Menu
+simple_error	std_lib_facilities.h	/^inline void simple_error(string s)	\/\/ write ``error: s and exit program$/;"	f
+size	Graph.h	/^	int size() const { return v.size(); }$/;"	f	class:Graph_lib::Vector_ref
+size	Matrix.h	/^    Index    size() const { return sz; }$/;"	f	class:Numeric_lib::Matrix_base
+size	Matrix11.h	/^    Index    size() const { return sz; }$/;"	f	class:Numeric_lib::Matrix_base
+slice	Matrix.h	/^    Row<T,1> slice(Index n)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    Row<T,1> slice(Index n, Index m)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    Row<T,2> slice(Index n)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    Row<T,2> slice(Index n, Index m)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    Row<T,3> slice(Index n)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    Row<T,3> slice(Index n, Index m)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    const Row<T,1> slice(Index n) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    const Row<T,1> slice(Index n, Index m) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    const Row<T,2> slice(Index n) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    const Row<T,2> slice(Index n, Index m) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    const Row<T,3> slice(Index n) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix.h	/^    const Row<T,3> slice(Index n, Index m) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    Row<T,1> slice(Index n)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    Row<T,1> slice(Index n, Index m)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    Row<T,2> slice(Index n)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    Row<T,2> slice(Index n, Index m)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    Row<T,3> slice(Index n)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    Row<T,3> slice(Index n, Index m)$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    const Row<T,1> slice(Index n) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    const Row<T,1> slice(Index n, Index m) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    const Row<T,2> slice(Index n) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    const Row<T,2> slice(Index n, Index m) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    const Row<T,3> slice(Index n) const$/;"	f	class:Numeric_lib::Matrix
+slice	Matrix11.h	/^    const Row<T,3> slice(Index n, Index m) const$/;"	f	class:Numeric_lib::Matrix
+solid	Graph.h	/^		solid=FL_SOLID,				\/\/ -------$/;"	e	enum:Graph_lib::Line_style::Line_style_type
+sort	std_lib_facilities.h	/^void sort(C& c)$/;"	f
+sort	std_lib_facilities.h	/^void sort(C& c, Pred p)$/;"	f
+std	std_lib_facilities.h	/^namespace std {$/;"	n
+style	Graph.h	/^	Line_style style() const { return ls; }$/;"	f	class:Graph_lib::Shape
+style	Graph.h	/^	int style() const { return s; }$/;"	f	struct:Graph_lib::Line_style
+suffix_map	Graph.cpp	/^std::map<string,Suffix::Encoding> suffix_map;$/;"	m	namespace:Graph_lib	file:
+swap_rows	Matrix.h	/^    void swap_rows(Index i, Index j)$/;"	f	class:Numeric_lib::Matrix
+swap_rows	Matrix11.h	/^    void swap_rows(Index i, Index j)$/;"	f	class:Numeric_lib::Matrix
+symbol	Graph.h	/^		symbol=FL_SYMBOL,$/;"	e	enum:Graph_lib::Font::Font_type
+sz	Matrix.h	/^    const Index sz;    $/;"	m	class:Numeric_lib::Matrix_base
+sz	Matrix11.h	/^    const Index sz;    $/;"	m	class:Numeric_lib::Matrix_base
+times	Graph.h	/^		times=FL_TIMES,$/;"	e	enum:Graph_lib::Font::Font_type
+times_bold	Graph.h	/^		times_bold=FL_TIMES_BOLD,$/;"	e	enum:Graph_lib::Font::Font_type
+times_bold_italic	Graph.h	/^		times_bold_italic=FL_TIMES_BOLD_ITALIC,$/;"	e	enum:Graph_lib::Font::Font_type
+times_italic	Graph.h	/^		times_italic=FL_TIMES_ITALIC,$/;"	e	enum:Graph_lib::Font::Font_type
+to_string	std_lib_facilities.h	/^template<class T> string to_string(const T& t)$/;"	f
+v	Graph.h	/^	unsigned char v;	\/\/ 0 or 1 for now$/;"	m	struct:Graph_lib::Color
+v	Graph.h	/^	vector<T*> v;$/;"	m	class:Graph_lib::Vector_ref
+vector	std_lib_facilities.h	105;"	d
+vertical	GUI.h	/^        enum Kind { horizontal, vertical };$/;"	e	enum:Graph_lib::Menu::Kind
+vertical	Gui.h	/^	enum Kind { horizontal, vertical };$/;"	e	enum:Graph_lib::Menu::Kind
+visibility	Graph.h	/^	char visibility() const { return v; }$/;"	f	struct:Graph_lib::Color
+visible	Graph.h	/^	enum Transparency { invisible = 0, visible=255 };$/;"	e	enum:Graph_lib::Color::Transparency
+w	Graph.h	/^	int w,h,cx,cy; \/\/ define "masking box" within image relative to position (cx,cy)$/;"	m	struct:Graph_lib::Image
+w	Graph.h	/^	int w;			\/\/ width$/;"	m	struct:Graph_lib::Rectangle
+w	Graph.h	/^	int w;$/;"	m	struct:Graph_lib::Ellipse
+w	Graph.h	/^	int w;$/;"	m	struct:Graph_lib::Line_style
+w	Window.h	/^	  int w,h;					\/\/ window size$/;"	m	class:Graph_lib::Window
+wait_for_button	Simple_window.cpp	/^bool Simple_window::wait_for_button()$/;"	f	class:Simple_window
+wait_for_button	Simple_window.h	/^	void wait_for_button()$/;"	f	struct:Simple_window
+white	Graph.h	/^		yellow=FL_YELLOW, white=FL_WHITE, black=FL_BLACK,$/;"	e	enum:Graph_lib::Color::Color_type
+width	GUI.h	/^        int width;$/;"	m	class:Graph_lib::Widget
+width	Graph.h	/^	int width() const { return w; }$/;"	f	struct:Graph_lib::Line_style
+width	Graph.h	/^	int width() const { return w; }$/;"	f	struct:Graph_lib::Rectangle
+width	Gui.h	/^	int width;$/;"	m	class:Graph_lib::Widget
+x	Graph.h	/^	enum Orientation { x, y, z };$/;"	e	enum:Graph_lib::Axis::Orientation
+x	Point.h	/^	int x,y;$/;"	m	struct:Graph_lib::Point
+x_max	Window.h	/^	int x_max() const { return w; }$/;"	f	class:Graph_lib::Window
+x_max	Window.h	/^inline int x_max() { return Fl::w(); }	\/\/ width of screen in pixels$/;"	f	namespace:Graph_lib
+xfer	Matrix.h	/^    Matrix xfer()    \/\/ make an Matrix to move elements out of a scope$/;"	f	class:Numeric_lib::Matrix
+xfer	Matrix.h	/^    mutable bool xfer;$/;"	m	class:Numeric_lib::Matrix_base
+xfer	Matrix.h	/^template<class T, int N> Matrix<T,N> xfer(Matrix<T,N>& a)$/;"	f	namespace:Numeric_lib
+xfer	Matrix11.h	/^    Matrix xfer()    \/\/ make an Matrix to move elements out of a scope$/;"	f	class:Numeric_lib::Matrix
+xfer	Matrix11.h	/^    mutable bool xfer;$/;"	m	class:Numeric_lib::Matrix_base
+xfer	Matrix11.h	/^template<class T, int N> Matrix<T,N> xfer(Matrix<T,N>& a)$/;"	f	namespace:Numeric_lib
+xy_out	chapter.16.5.cpp	/^    Out_box xy_out;$/;"	m	struct:Lines_window	file:
+y	Graph.h	/^	enum Orientation { x, y, z };$/;"	e	enum:Graph_lib::Axis::Orientation
+y	Point.h	/^	int x,y;$/;"	m	struct:Graph_lib::Point
+y_max	Window.h	/^	int y_max() const { return h; }$/;"	f	class:Graph_lib::Window
+y_max	Window.h	/^inline int y_max() { return Fl::h(); }	\/\/ height of screen in pixels$/;"	f	namespace:Graph_lib
+yellow	Graph.h	/^		yellow=FL_YELLOW, white=FL_WHITE, black=FL_BLACK,$/;"	e	enum:Graph_lib::Color::Color_type
+z	Graph.h	/^	enum Orientation { x, y, z };$/;"	e	enum:Graph_lib::Axis::Orientation
+zapf_dingbats	Graph.h	/^		zapf_dingbats=FL_ZAPF_DINGBATS$/;"	e	enum:Graph_lib::Font::Font_type
+~Image	Graph.h	/^	~Image() { delete p; }$/;"	f	struct:Graph_lib::Image
+~Matrix	Matrix.h	/^    ~Matrix() { }$/;"	f	class:Numeric_lib::Matrix
+~Matrix	Matrix11.h	/^    ~Matrix() { }$/;"	f	class:Numeric_lib::Matrix
+~Matrix_base	Matrix.h	/^    ~Matrix_base()$/;"	f	class:Numeric_lib::Matrix_base
+~Matrix_base	Matrix11.h	/^    ~Matrix_base()$/;"	f	class:Numeric_lib::Matrix_base
+~Shape	Graph.h	/^	virtual ~Shape() { }$/;"	f	class:Graph_lib::Shape
+~Vector_ref	Graph.h	/^	~Vector_ref() { for (int i=0; i<owned.size(); ++i) delete owned[i]; }$/;"	f	class:Graph_lib::Vector_ref
+~Widget	GUI.h	/^        virtual ~Widget() { }$/;"	f	class:Graph_lib::Widget
+~Widget	Gui.h	/^	virtual ~Widget() { }$/;"	f	class:Graph_lib::Widget
+~Window	Window.h	/^	virtual ~Window() { }$/;"	f	class:Graph_lib::Window
